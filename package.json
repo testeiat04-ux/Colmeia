@@ -1,0 +1,20 @@
+{
+  "name": "colmeia-1x1-bot",
+  "version": "1.4.0",
+  "description": "Bot de filas de apostas (1x1 a 4x4), mediadores, Pix, tickets de suporte e rankings estilo Colmeia para Discord",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.0",
+    "jimp": "^0.22.12",
+    "qrcode": "^1.5.3",
+    "tesseract.js": "^5.1.1"
+  }
+}
